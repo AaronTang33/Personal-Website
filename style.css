@@ -1,26 +1,3 @@
-/*---Media Queries --*/
-@media (max-width: 992px) {
-
-  }
-@media (max-width: 768px) {
-    .aboutMe{
-        font-size: 16px
-    }
-}
-@media screen and (max-width: 576px) {
-
-    .myPic{
-        max-height: 20vh;
-    }
-    
-    .aboutMe{
-        font-size: 14px
-    }
-
-    .projectDescription{
-        font-size:14px;
-    }
-}
 
 
 
@@ -646,3 +623,31 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 
 
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+  .aboutMe{
+      font-size: 16px
+  }
+}
+@media screen and (max-width: 576px) {
+
+  .myPic{
+      max-height: 20vh;
+  }
+  
+  .aboutMe{
+      font-size: 14px
+  }
+
+  .projectDescription{
+      font-size:14px;
+  }
+
+  .button{
+      width:100px;
+      height:50px;
+  }
+}
